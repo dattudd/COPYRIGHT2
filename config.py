@@ -12,10 +12,10 @@ BOT_TOKEN = os.environ.get("BOT_TOKEN", "7398593479:AAGBpDPNXKSK2G3Jo5z6N_n9SuCw
 # -----------------A-------------------------------
 BOT_USERNAME = os.environ.get("BOT_USERNAME", "chinna")
 # ------------------X------------------------------
-OWNER_ID = int(os.environ.get("OWNER_ID"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "6896043885"))
 # ------------------X------------------------------
 # ------------------------------------------------
-LOGGER_ID = int(os.environ.get("LOGGER_ID"))
+LOGGER_ID = int(os.environ.get("LOGGER_ID", "-1002141779241"))
 # ------------------------------------------------
 MONGO_URL = os.environ.get("MONGO_URL")
 # ------------------------------------------------
